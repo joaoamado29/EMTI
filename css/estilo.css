@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(39, 39, 39);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 45px; 
+    text-align: center; 
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-family: Verdana, Helvetica, sans-serif;
+    color: rgb(215, 215, 215)
+}
+strong{
+    color: rgb(66, 157, 41);
+}
+/* Header - Cabeçalho*/
+#logo{
+    width: 200px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu ul li{
+    display: inline;
+    margin: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid green;
+}
+
+.menu > ul > li > a:active{
+    color: white;
+    font-weight: 700;
+}
+
+#ativo{
+    border-bottom: 2px solid green;
+    color: white;
+}
+
+.cor-link{
+    color: white;
+}
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+img{
+    color: white;
+}
+
+#links{
+    color:rgb(0, 85, 151);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*Seções*/
+#banner_principal{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 20%;
+    align-items: center;
+}
+.banner{
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    margin-bottom: 20px;
+}
+
+#video{
+    background-color: rgb(97, 143, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(255, 136, 0);
+}
+
+
+#video > .container {
+    background-color: rgb(35, 35, 35);
+    margin: 30px;
+}
+#video > .container > img {
+    height: 315px;
+}
+
+.redes-sociais{
+    margin-right: 5px;
+    margin-left: 5px;
+}

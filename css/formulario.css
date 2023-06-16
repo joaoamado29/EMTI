@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: rgba(23, 23, 23, 0.76);
+    border-radius: 1%;
+    border-color: white;
+}
+.container-form img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    margin-right: 40px;
+}
+.container-form form{
+    width: 50%;
+}
